@@ -2,12 +2,12 @@
 #include "SQLiteDB.h"
 
 const std::string sqlStatements[] = {
-    "CREATE TABLE trades(trd_id int PRIMARY KEY, instr_id TEXT, instr_desc TEXT, amount FLOAT)",
-    "INSERT INTO trades VALUES (1000, 'IBM US Equity', 'International Business Machine', 5.0)",
-    "INSERT INTO trades VALUES (1001, 'IBM US Equity', 'International Business Machine', 6.0)",
-    "INSERT INTO trades VALUES (1002, 'IBM US Equity', 'International Business Machine', 7.0)",
-    "INSERT INTO trades VALUES (1003, 'IBM US Equity', 'International Business Machine', 8.0)",
-    "SELECT * FROM trades WHERE trd_id > 1000",
+    "CREATE TABLE companies(comp_id int PRIMARY KEY, short_name TEXT, long_name TEXT, amount FLOAT)",
+    "INSERT INTO companies VALUES (1000, 'IBM',  'International Business Machine', 5.0)",
+    "INSERT INTO companies VALUES (1001, 'DIS',  'Walt Disney Co', 6.0)",
+    "INSERT INTO companies VALUES (1002, 'AAPL', 'Apple Inc', 7.0)",
+    "INSERT INTO companies VALUES (1003, 'MSFT', 'Microsoft Corp', 8.0)",
+    "SELECT * FROM companies WHERE comp_id > 1000",
 };
 
 int main()
