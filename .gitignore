@@ -1,0 +1,11 @@
+/Debug/
+
+# swap files, objects, etc
+*.swp
+*.o
+*.a
+*.d
+*.dd
+
+# eclipse cruft
+.settings/
