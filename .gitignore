@@ -9,3 +9,7 @@
 
 # eclipse cruft
 .settings/
+
+# osx / windows cruft
+.DS_Store
+thumbs.db

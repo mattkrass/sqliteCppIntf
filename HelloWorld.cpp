@@ -3,10 +3,10 @@
 
 const std::string sqlStatements[] = {
     "CREATE TABLE companies(comp_id int PRIMARY KEY, short_name TEXT, long_name TEXT, amount FLOAT)",
-    "INSERT INTO companies VALUES (1000, 'IBM',  'International Business Machine', 5.0)",
-    "INSERT INTO companies VALUES (1001, 'DIS',  'Walt Disney Co', 6.0)",
-    "INSERT INTO companies VALUES (1002, 'AAPL', 'Apple Inc', 7.0)",
-    "INSERT INTO companies VALUES (1003, 'MSFT', 'Microsoft Corp', 8.0)",
+    "INSERT INTO companies VALUES (1000, 'IBM',  'International Business Machine', 5.3)",
+    "INSERT INTO companies VALUES (1001, 'DIS',  'Walt Disney Co', 6.4)",
+    "INSERT INTO companies VALUES (1002, 'AAPL', 'Apple Inc', 7.5)",
+    "INSERT INTO companies VALUES (1003, 'MSFT', 'Microsoft Corp', 8.6)",
     "SELECT * FROM companies WHERE comp_id > 1000",
 };
 
